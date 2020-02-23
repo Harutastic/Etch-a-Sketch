@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
+:root {
+	--grid-size: 680px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Asap, sans-serif;
+}
+
+body {
+	background-color: #2A7380;
+}
+
+header {
+	background-color: #A1F1FF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+header > h1 {
+	margin: 20px auto;
+	text-align: center;
+	color: black;
+}
+
+#grid-container {
+	display: grid;
+	border: 1px solid black;
+	width: var(--grid-size);
+	height: var(--grid-size);
+	margin: 0 auto;
+}
+
+.hovering {
+	background-color: black;
+}
+
+.btncontainer {
+	text-align: center;
+	margin: 20px 0px;
+}
+
+button {
+	background-color: #A1F1FF;
+	border: none;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+button:hover {
+	background-color: #589AA6;
+}
+
+button:active {
+	background-color: #589AA6;
+	transform: translateY(4px);
+}
